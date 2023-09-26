@@ -1,0 +1,266 @@
+.unity-inspector-element__custom-inspector-container{
+	display: flex;
+	flex-direction: column;
+	padding-right: 15px;
+	width: 100%;
+}
+
+#so-group{
+	display: flex;
+	flex-direction: row;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+#so-group > ObjectField{
+	width: 80%;
+}
+#so-group > ObjectField > Label{
+	min-width: 0;
+	padding-right: 5px;
+}
+
+.output-path-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	margin:5px;
+}
+
+.output-path-container > Label{
+	overflow: hidden;
+	flex-grow: 1;
+	flex-shrink: 1;
+	-unity-overflow-clip-box: content-box;
+	-unity-text-overflow-position: end;
+	-unity-text-align: middle-left;
+	border-radius: 10px;
+	background-color: rgba(0,0,0,.1);
+}
+
+.output-path-container > Button{
+
+}
+
+.hidden{
+	display: none;
+}
+
+.connections-content{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	background-color: rgba(0,0,0,0.05);
+	border-radius: 10px;
+	border-color: rgba(0,0,0,1);
+	border-width: 2px;
+	overflow: hidden;
+}
+
+.connections-content > Label{
+	-unity-text-align: middle-center;
+	background-color: rgba(0,0,0,0.3);
+}
+
+.connections-content-sub{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 100%;
+	padding-left: 5px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.connections-content > .connections-content-sub > VisualElement{
+	display: flex;
+	flex-direction: row;
+	-unity-text-align: middle-center;
+	background-color: rgba(0,0,0,.05);
+	height: 25px;
+	border-width: 2px;
+	border-color: rgba(0,0,0,.2);
+	border-radius: 10px;
+}
+
+.connections-content > VisualElement > PopupField{
+	height: 20px;
+}
+
+.additional-data-content{
+	display: flex;
+	flex-direction: column;
+	background-color: rgba(0,0,0,0.05);
+	border-radius: 10px;
+	border-color: rgba(0,0,0,1);
+	border-width: 2px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+
+}
+
+.additional-data-content > Label{
+	-unity-text-align: middle-center;
+	background-color: rgba(0,0,0,0.3);
+}
+
+.additional-data-content > VisualElement{
+	padding: 5px;
+}
+
+.outputs-content{
+	display: flex;
+	flex-direction: column;
+	background-color: rgba(0,0,0,0.05);
+	border-radius: 10px;
+	border-color: rgba(0,0,0,1);
+	border-width: 2px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.outputs-content > VisualElement{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	overflow: hidden;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+.outputs-content > Label{
+	-unity-text-align: middle-center;
+	background-color: rgba(0,0,0,0.3);
+}
+
+.outport-element{
+	display: flex;
+	flex-direction: row;
+	flex-shrink: 0;
+	justify-content: center;
+	border-radius: 10px;
+	border-width: 2px;
+	border-color: rgba(0,0,0,1);
+	background-color: rgba(255,0,0,.1);
+}
+
+.outport-element > Label{
+	background-color: rgba(0,0,0,.4);
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.output-tag{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.output-spacer{
+	width: 2px;
+	background-color: rgba(0,0,0,1);
+}
+
+.subsection{
+	width:100%;
+	border-width: 2px;
+	border-color: rgba(0,0,0,0.3);
+	border-radius: 10px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+.subsection > .subsection-title{
+	flex-direction: row;
+	justify-content: space-between;
+	color: #ffffff;
+	padding:3px;
+	background-color: rgba(0,0,0,0.3);
+}
+
+.subsection > Button{
+	margin: 3px;
+}
+
+.subsection-main > VisualElement{
+	border-radius: 10px;
+	border-color: rgba(0,0,0,1);
+	border-width: 2px;
+	margin: 5px;
+	overflow: hidden;
+}
+
+.label-content{
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	justify-content: space-between;
+	-unity-text-align: middle-center;
+	padding-left: 5px;
+	background-color: rgba(0,0,0,.3);
+}
+
+.label-content > Button{
+	border-radius: 50%;
+}
+
+.slider-group{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.slider-group > Label{
+	-unity-text-align: middle-center;
+}
+
+.slider-group > Slider{
+	flex-grow: 2;
+}
+
+.end-group{
+	width:100%;
+	border-width: 2px;
+	border-color: rgba(0,0,0,0.3);
+	border-radius: 10px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+.load-graph-button{
+	border-radius: 10px;
+	height: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#gen-button{
+	border-radius: 10px;
+	background-color: #aa6238;
+	color: #ffffff;
+	height: 25px;
+}
+
+#gen-button:hover{
+		background-color: #aa5228;
+}
+
+#input-section-container > Label{
+}
+
+#generate-section-container > Label{
+}
+
+#convert-section-container > Label{
+}
+
+#output-section-container > Label{
+}

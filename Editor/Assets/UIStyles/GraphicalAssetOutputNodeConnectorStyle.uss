@@ -1,0 +1,67 @@
+Connector
+{
+	display: flex;
+	flex-direction: column;
+	margin: 3;
+	background-color: rgba(50,50,50,1);
+	align-items: stretch;
+	width: 280px;
+	border-width: 1px;
+	border-radius: 10px;
+	border-color: var(--gag-colors-accent-1);
+	padding: 5px;
+}
+
+#top
+{
+	flex-direction: row;
+	align-items: stretch;
+	justify-content: flex-end;
+}
+
+#bottom
+{
+	flex-direction: row;
+	align-items: stretch;
+	justify-content: flex-end;
+}
+
+#type
+{
+	display: none;
+}
+
+.port-label
+{
+	display: none;
+}
+
+.train-port
+{
+	display: none;
+}
+
+PopupField
+{
+	width: 50%;
+}
+
+TextField
+{
+	width: 50%;
+}
+
+Button
+{
+	width: 25%;
+}
+
+Label
+{
+	width: 20%;
+}
+
+GraphicalAssetPort
+{
+	width: 20%;
+}

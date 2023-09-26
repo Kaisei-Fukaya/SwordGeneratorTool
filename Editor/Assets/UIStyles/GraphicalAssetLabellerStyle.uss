@@ -1,0 +1,30 @@
+#input
+{
+	display: flex;
+	flex-direction: row;
+	margin: 3;
+	align-items: stretch;
+}
+
+#type
+{
+	display: none;
+}
+
+#extension
+{
+	display: flex;
+	flex-direction: row;
+	margin: 3;
+	align-items: center;
+}
+
+TextField
+{
+	width: 130px;
+}
+
+PopupField
+{
+	width: 100px;
+}

@@ -1,0 +1,133 @@
+GAPreview
+{
+	background-color: var(--gag-colors-grid-dark-grey-1);
+}
+
+#topContainer
+{
+	width: 100%;
+	align-content: center;
+}
+
+#mainContainer
+{
+	width: 100%;
+	flex: 1;
+	border-radius: 10px;
+}
+
+#imageFieldGroup
+{
+	flex-direction: row;
+}
+
+#imageFieldGroup > ImageField
+{
+	flex: 1;
+}
+
+.tab
+{
+	flex-direction: column;
+	height: 100%;
+	justify-content: space-between;
+}
+
+.tab >
+{
+	flex: 1;
+}
+
+.tab > Button
+{
+	height: 25px;
+}
+
+.tabSpacer
+{
+	height: 5px;
+}
+
+#titleElement
+{
+	padding: 5px;
+	-unity-text-align: middle-center;
+}
+
+#tabButtonRow
+{
+	display: flex;
+	flex-direction: row;
+}
+
+.tabButton
+{
+	display: flex;
+	background-color: var(--gag-colors-light-3);
+	flex: 1;
+	-unity-text-align: middle-center;
+	padding: 4;
+	border-left-color: rgba(0,0,0,0.2);
+	border-left-width: 2px;
+	border-right-color: rgba(0,0,0,0.2);
+	border-right-width: 2px;
+	color: #ffffff;
+}
+
+.tabButton:hover
+{
+	background-color: var(--gag-colors-light-2);
+}
+
+.tabFocused
+{
+	background-color: var(--gag-colors-light-1);
+}
+
+.hiddenTab
+{
+	display: none;
+}
+
+#tSlider
+{
+	width: 50%;
+	align-self: center;
+}
+
+#tField
+{
+	width: 50%;
+	align-self: center;
+}
+
+#paramBox
+{
+	border-color: rgba(0,0,0,0.2);
+	border-top-width: 2px;
+	border-bottom-width: 2px;
+}
+
+.inputBlock
+{
+	flex-direction: row;
+	width: 98%;
+	align-content: stretch;
+	align-self: center;
+}
+
+.inputBlock > .unity-base-field > Label
+{
+	-unity-text-align: middle-left;
+	min-width: 110px;
+}
+
+.inputBlock > Label
+{
+	flex: 1;
+}
+
+.inputBlock > SliderInt
+{
+	flex: 2;
+}

@@ -1,0 +1,30 @@
+#imageGroup
+{
+	flex-direction: row;
+	align-self: center;
+}
+
+#image
+{
+	padding-top: 5px;
+	padding-bottom: 10px;
+	width: 128px;
+	height: 128px;
+	background-color: rgba(0,0,0,0.1);
+}
+
+#picker
+{
+	flex-direction: row;
+	align-items: center;
+}
+
+#picker >
+{
+	align-self: center;
+}
+
+#picker > Button
+{
+	height: 15px;
+}

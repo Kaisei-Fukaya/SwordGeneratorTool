@@ -1,0 +1,56 @@
+:root
+{
+	display: flex;
+	align-items: stretch;
+}
+#mainView
+{
+	width: 100%;
+	height: 60%;
+}
+
+#previewConfigWindow
+{
+	width: 100%;
+	height: 40%;
+	flex-direction: row;
+}
+
+#previewWindow, #configWindow
+{
+	flex: 1;
+	align-self: stretch;
+}
+
+#configWindow
+{
+	max-width: 450px;
+	border-left-width: 5px;
+	border-left-color: var(--gag-colors-grid-dark-grey-1);
+}
+
+Toolbar > ToolbarButton
+{
+
+}
+
+Toolbar > ToolbarSpacer
+{
+	width:50px;
+}
+
+Label
+{
+	-unity-text-align: middle-center;
+	padding-right: 4px;
+}
+
+#runButton
+{
+	background-color: #aa6238;
+}
+
+#runButton:hover
+{
+	background-color: #aa5228;
+}

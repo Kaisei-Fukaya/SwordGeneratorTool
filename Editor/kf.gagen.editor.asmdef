@@ -1,0 +1,17 @@
+{
+    "name": "kf.gagen.editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:1ae8af594f7896d40b054c8fea01c73c",
+        "GUID:5c2b5ba89f9e74e418232e154bc5cc7a"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

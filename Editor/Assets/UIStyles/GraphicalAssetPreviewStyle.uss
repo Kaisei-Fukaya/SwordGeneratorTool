@@ -1,0 +1,20 @@
+GAPreview
+{
+	background-color: var(--gag-colors-grid-dark-grey-1);
+}
+
+#topContainer
+{
+	align-content: center;
+}
+
+#mainContainer
+{
+	border-radius: 10px;
+}
+
+#titleElement
+{
+	padding: 5px;
+	-unity-text-align: middle-center;
+}

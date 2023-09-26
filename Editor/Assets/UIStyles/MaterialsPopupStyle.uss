@@ -1,0 +1,25 @@
+#listBlock
+{
+	flex-direction:column;
+}
+
+#listBlock > MaterialElement
+{
+	flex-direction:row;
+	justify-content:space-between;
+}
+
+#listBlock > MaterialElement > ObjectField
+{
+	flex: 2;
+}
+
+#listBlock > MaterialElement > IntegerField
+{
+	flex: 2;
+}
+
+#listBlock > MaterialElement > IntegerField > Label
+{
+	min-width: 45px;
+}

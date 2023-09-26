@@ -1,0 +1,41 @@
+#generateButton
+{
+	background-color: #1c6232;
+	
+}
+
+#generateButton:checked
+{
+	background-color: #41ba65;
+	
+}
+
+#generateButton:checked > VisualElement > Label
+{
+	color: rgba(0, 0, 0, 0.8);
+}
+
+#generateButton:hover
+{
+	background-color: #3fa15c;
+}
+
+#trainButton
+{
+	background-color: rgba(28, 81, 98, 1);
+}
+
+#trainButton:checked
+{
+	background-color: rgba(79, 197, 235, 1);
+}
+
+#trainButton:checked > VisualElement > Label
+{
+	color: rgba(0, 0, 0, 0.8);
+}
+
+#trainButton:hover
+{
+	background-color: rgba(67, 165, 196, 1);
+}

@@ -1,0 +1,18 @@
+#output
+{
+	display: flex;
+	flex-direction: row;
+	margin: 3;
+	background-color: rgba(50,50,50,1);
+	align-items: stretch;
+}
+
+TextField
+{
+	width: 100px;
+}
+
+PopupField
+{
+	width: 50px;
+}

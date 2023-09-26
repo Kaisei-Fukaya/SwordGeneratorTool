@@ -1,0 +1,217 @@
+#title
+{
+	background-color: var(--gag-colors-dark-1);
+	align-content: center;
+}
+
+#top
+{
+	background-color: var(--gag-colors-grid-light-grey-3);
+}
+
+#extension
+{
+	padding-bottom: 5px;
+	background-color: var(--gag-colors-grid-light-grey-3);
+}
+
+#input
+{
+
+}
+
+#output
+{
+
+}
+
+.has-icon-down > .port-container > VisualElement
+{
+	width: 24px;
+	height: 24px;
+	background-image: url("project:/Packages/com.kf.gagen/Editor/Assets/OrientationCube_bo.png");
+}
+
+.has-icon-up > .port-container > VisualElement
+{
+	width: 24px;
+	height: 24px;
+	background-image: url("project:/Packages/com.kf.gagen/Editor/Assets/OrientationCube_t.png");
+}
+
+.has-icon-left > .port-container > VisualElement
+{
+	width: 24px;
+	height: 24px;
+	background-image: url("project:/Packages/com.kf.gagen/Editor/Assets/OrientationCube_l.png");
+}
+
+.has-icon-forward > .port-container > VisualElement
+{
+	width: 24px;
+	height: 24px;
+	background-image: url("project:/Packages/com.kf.gagen/Editor/Assets/OrientationCube_f.png");
+}
+
+.has-icon-right > .port-container > VisualElement
+{
+	width: 24px;
+	height: 24px;
+	background-image: url("project:/Packages/com.kf.gagen/Editor/Assets/OrientationCube_r.png");
+}
+
+.has-icon-backward > .port-container > VisualElement
+{
+	width: 24px;
+	height: 24px;
+	background-image: url("project:/Packages/com.kf.gagen/Editor/Assets/OrientationCube_ba.png");
+}
+
+.text-field{
+	width: 100%;
+	height: 100%;
+}
+
+Label
+{
+	-unity-text-align: middle-center;
+	background-color: rgba(0,0,0,0.05);
+}
+
+GraphicalAssetPort
+{
+	display: flex;
+	flex-direction: row;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+#input > GraphicalAssetPort
+{
+	align-self: flex-start;
+}
+
+#output > GraphicalAssetPort
+{
+	align-self: flex-end;
+}
+
+GraphicalAssetPort > .port-Label
+{
+	flex-direction: column;
+}
+
+.port-container
+{
+	flex-direction: row;
+}
+
+GraphicalAssetPort > VisualElement > Port
+{
+	
+}
+
+.train-port, .gen-port
+{
+	height: 100%;
+}
+
+GraphicalAssetPort > VisualElement > Port > Label
+{
+	display: none;
+}
+
+.slider-group{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	height: 19px;
+}
+
+.slider-group > Label{
+	-unity-text-align: middle-center;
+}
+
+.slider-group > Slider
+{
+	min-width: 50px;
+}
+
+
+.label-field-block{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	-unity-text-align: middle-right;
+}
+
+.label-field-block > Vector3Field{
+	width: 200px;
+}
+
+.label-field-block > Slider{
+	width: 100px;
+}
+
+.curve-foldout > VisualElement{
+	margin-left: 5px;
+}
+
+.group
+{
+	margin-bottom: 1px;
+}
+
+.header
+{
+	font-size: 14;
+	background-color: var(--gag-colors-dark-1);
+	padding-left: 25px;
+}
+
+Vector3Field > VisualElement
+{
+	flex-direction: column;
+}
+
+.twoColBlock
+{
+	flex-direction: row;
+}
+
+.label-field-block
+{
+	flex-direction: column;
+}
+
+.label-field-block > FloatField > FloatInput
+{
+	min-width: 60px;
+}
+
+.label-field-block > FloatField > Label
+{
+	min-width: 75px;
+}
+
+.slider-group > FloatField > Label
+{
+	min-width: 75px;
+}
+
+.slider-group > FloatField > FloatInput
+{
+	min-width: 35px;
+}
+
+FloatField > FloatInput
+{
+	min-width: 60px;
+}
+
+FloatField > Label
+{
+	min-width: 75px;
+}

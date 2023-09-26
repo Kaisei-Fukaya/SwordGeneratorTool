@@ -1,0 +1,11 @@
+{
+  "name": "com.kf.gagen",
+  "version": "1.0.0",
+  "displayName": "Graphical Asset Generator",
+  "description": "This is an editor tool that allows you to create swords via a combination of AI and manual editing.",
+  "unity": "2020.3",
+  "dependencies": {
+    "com.unity.barracuda": "3.0.0"
+  },
+  "type": "tool"
+}
